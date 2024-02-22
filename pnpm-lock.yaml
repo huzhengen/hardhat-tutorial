@@ -6,6 +6,7 @@ specifiers:
   '@nomicfoundation/hardhat-network-helpers': ^1.0.0
   '@nomicfoundation/hardhat-toolbox': ^4.0.0
   '@nomicfoundation/hardhat-verify': ^2.0.0
+  '@openzeppelin/contracts': ^5.0.1
   '@typechain/ethers-v6': ^0.5.0
   '@typechain/hardhat': ^9.0.0
   chai: ^4.2.0
@@ -21,6 +22,7 @@ devDependencies:
   '@nomicfoundation/hardhat-network-helpers': 1.0.10_hardhat@2.20.1
   '@nomicfoundation/hardhat-toolbox': 4.0.0_0ac00b350b9686ff30a301bcd686debb
   '@nomicfoundation/hardhat-verify': 2.0.4_hardhat@2.20.1
+  '@openzeppelin/contracts': 5.0.1
   '@typechain/ethers-v6': 0.5.1_ethers@6.11.1+typechain@8.3.2
   '@typechain/hardhat': 9.1.0_a8b0b07355197787c86ef0547c6eacdf
   chai: 4.4.1
@@ -807,6 +809,10 @@ packages:
       '@nomicfoundation/solidity-analyzer-win32-arm64-msvc': 0.1.1
       '@nomicfoundation/solidity-analyzer-win32-ia32-msvc': 0.1.1
       '@nomicfoundation/solidity-analyzer-win32-x64-msvc': 0.1.1
+    dev: true
+
+  /@openzeppelin/contracts/5.0.1:
+    resolution: {integrity: sha512-yQJaT5HDp9hYOOp4jTYxMsR02gdFZFXhewX5HW9Jo4fsqSVqqyIO/xTHdWDaKX5a3pv1txmf076Lziz+sO7L1w==}
     dev: true
 
   /@scure/base/1.1.5:
